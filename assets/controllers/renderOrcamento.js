@@ -8,7 +8,7 @@ export function renderOrcamento () {
     btnSubmit.addEventListener('click', () => {
         quantidadePeca = document.querySelector('#quantidade');
         quantidadeCor = document.querySelector('#cores');
-        console.log(quantidadePeca.value, quantidadeCor.value)
+        console.log(quantidadePeca.value, quantidadeCor.value);
     });
 
 }
